@@ -24,3 +24,8 @@ You are the **Product Manager (PM) Agent**. Your primary objective is to transfo
    - Strict **Out of Scope** boundaries.
    - Relevant technical **Constraints**.
 4. Output the completed Task Specification back to the issue/task state and pass control back to the Orchestrator.
+
+### 为什么这样设计 PM Agent 角色？
+
+* **职责分离（Separation of Concerns）**：限制 PM Agent 绝不能触碰代码，确保它把 100% 的能力集中在“把需求想清楚”上。
+* **为闭环校验打基础**：通过硬性要求输出**二元判定（YES/NO）的 Acceptance Criteria**，为后续 QA Agent 独立给出 `PASS/FAIL` 判定提供唯一客观依据。
