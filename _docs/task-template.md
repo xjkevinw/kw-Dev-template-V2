@@ -19,3 +19,12 @@
 - **Tech Stack & Libraries**: 仅使用 `pyproject.toml` 中已有的依赖，未经许可不得引入新包。
 - **File Boundaries**: 修改范围原则上限制在 `src/services/` 目录下。
 - **Quality Gate**: 必须提供对应的 pytest 测试用例，且保证通过率 100%。
+
+
+### 为什么这个模板对你的主力开发至关重要？
+
+在后续的 AI 自动循环（Loop &amp; Graph）中：
+
+1. **PM Agent** 会严格按照这个模版把一个大需求拆解并填写好。
+2. **Engineer Agent** 只能围绕 `Goal` 和 `Constraints` 编码，且不敢越过 `Out of Scope` 的红线。
+3. **QA Agent** 最终只需要逐项勾选 `Acceptance Criteria` 里的复选框，给出 `PASS` 或 `FAIL`。
