@@ -1,1 +1,21 @@
-\# kw\_Dev\_template v2 - Project Context &amp; Agent Rules ## 1\. Quick Commands - Dependency Sync: \`uv sync\` - Run All Tests: \`uv run pytest\` - Run Single Test File: \`uv run pytest tests/test\_filename.py\` - Lint &amp; Format: \`uv run ruff check .\` ## 2\. Core Constraints - \*\*Dependency Management\*\*: Use \`uv\` for package management. Do not modify \`pyproject.toml\` without explicit approval. - \*\*Test-Driven Delivery\*\*: Every feature or fix must include corresponding tests. All tests must pass (\`pytest\` green) before concluding a task. - \*\*Scope Control\*\*: Respect the \`Out of Scope\` boundaries defined in each task's spec. Do not speculate or add unrequested features. - \*\*Context Updates\*\*: Update relevant markdown files under \`\_docs/\` when architectural or procedural decisions change. ## 3\. Reference Documents (Lazy-loaded Context) Refer to these specialized documents before working on corresponding tasks: - \*\*Development Process &amp; Grooming\*\*: \`\_docs/process.md\` - \*\*System Architecture\*\*: \`\_docs/architecture.md\` - \*\*Testing Guidelines\*\*: \`\_docs/testing-guidelines.md\` - \*\*Task Grooming Spec\*\*: \`\_docs/task-template.md\` - \*\*Agent Roles (PM / SWE / QA)\*\*: \`\_docs/team/\`
+#kw_Dev_template v2 - Project Context & Agent Rules
+
+## 1. Quick Commands
+- Dependency Sync: `uv sync`
+- Run All Tests: `uv run pytest`
+- Run Single Test File: `uv run pytest tests/test_filename.py`
+- Lint &amp; Format: `uv run ruff check .`
+
+## 2. Core Constraints 
+- **Dependency Management**: Use `uv` for package management. Do not modify `pyproject.toml` without explicit approval.
+- **Test-Driven Delivery**: Every feature or fix must include corresponding tests. All tests must pass (`pytest` green) before concluding a task.
+- **Scope Control**: Respect the `Out of Scope` boundaries defined in each task's spec. Do not speculate or add unrequested features.
+- **Context Updates**: Update relevant markdown files under `_docs/` when architectural or procedural decisions change.
+
+## 3. Reference Documents (Lazy-loaded Context) 
+Refer to these specialized documents before working on corresponding tasks:
+- **Development Process &amp; Grooming**: `_docs/process.md`
+- **System Architecture**: `_docs/architecture.md`
+- **Testing Guidelines**: `_docs/testing-guidelines.md`
+- **Task Grooming Spec**: `_docs/task-template.md`
+- **Agent Roles (PM / SWE / QA)**: `_docs/team/`
