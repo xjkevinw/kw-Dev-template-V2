@@ -1,4 +1,3 @@
-```
 # Development Process &amp; Workflow Specification
 
 ## 1. Task Backlog Rules
@@ -30,4 +29,3 @@ The Orchestrator session dispatches sub-agents (PM, SWE, QA) to process issues a
 - The QA Engineer must NOT modify any code — only report test verdicts.
 - The Orchestrator closes the issue ONLY after receiving an explicit `PASS` verdict from QA.
 
-```
